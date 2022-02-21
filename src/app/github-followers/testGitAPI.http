@@ -1,0 +1,4 @@
+GET https://api.github.com/users/mamadou-wone/followers
+Accept: application/json
+
+###

@@ -1,4 +1,9 @@
 
-.media { 
+.media {
     margin-bottom: 30px;
+}
+
+img{
+  float: left;
+  width: 100px;
 }
