@@ -8,7 +8,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy:firebase": "ng build --prod && firebase deploy ",
+    "deploy:gh": "ng build --prod --base-href='https://jienba.github.io/followers-app/' && ngh --dir=dist"
+
   },
   "private": true,
   "dependencies": {
